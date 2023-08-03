@@ -67,15 +67,19 @@
     overflow: hidden;
 }
 
+.container-link-categories a {
+    display: flex;
+    align-items: center;
+}
+
 .menu-mobile.open {
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: var(--color-secundary);
+    background-color: var(--color-white);
     padding: 1.5rem;
     z-index: 1;
     transform: translateY(0);
@@ -129,6 +133,11 @@
         padding-left: 3.43rem;
         background-color: var(--color-secundary);
         border-radius: var(--radius-70) 0 0 var(--radius-70);
+    }
+
+    .container-link-categories a {
+        display: flex;
+        align-items: center;
     }
 
     .menu-desktop ul {
