@@ -1,15 +1,25 @@
 import { useState } from "react"
+import { Link } from "react-router-dom";
+import { MdExpandMore, MdExpandLess } from "react-icons/md"
 import logo from "../../images/svg/logo.svg"
 import imgHeader from "../../images/svg/img-header.svg"
-import { Link } from "react-router-dom";
+import DropdownMenu from "../DropdownMenu";
+import "../../components/DropdownMenu/style.css"
 
 const Header = () => {
 
     const [isOpen, setIsOpen] = useState(false)
+    const [showDropdown, setShowDropdown] = useState(false)
+    const [showCategoriesMenu, setShowCategoriesMenu] = useState(false)
 
     const handleMenuClick = () => {
-        setIsOpen(!isOpen);
-    };
+        setIsOpen(!isOpen)
+    }
+
+    const handleCategoriesClick = () => {
+        setShowDropdown(!showDropdown)
+        setShowCategoriesMenu(!showCategoriesMenu)
+    }
 
     return (
         <header className="header">
@@ -34,8 +44,11 @@ const Header = () => {
                     <li>
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
-                        <Link to="/categorias">Categorias</Link>
+                    <li className="container-link-categories">
+                        <Link to="/" onClick={handleCategoriesClick}>
+                            Categorias {showCategoriesMenu ? <MdExpandLess /> : <MdExpandMore />}
+                        </Link>
+                        {showCategoriesMenu && <DropdownMenu />}
                     </li>
                     <li>
                         <Link to="/sobre">Sobre</Link>
@@ -50,12 +63,15 @@ const Header = () => {
             </div>
 
             <div className="menu-desktop">
-            <ul>
+                <ul>
                     <li>
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
-                        <Link to="/categorias">Categorias</Link>
+                    <li className="container-link-categories">
+                        <Link to="/" onClick={handleCategoriesClick}>
+                            Categorias {showCategoriesMenu ? <MdExpandLess /> : <MdExpandMore />}
+                        </Link>
+                        {showCategoriesMenu && <DropdownMenu />}
                     </li>
                     <li>
                         <Link to="/sobre">Sobre</Link>
