@@ -12,6 +12,8 @@ import Session4 from "./components/Session4"
 import "./components/Session4/style.css"
 import Session5 from "./components/Session5"
 import "./components/Session5/style.css"
+import Footer from "./components/Footer"
+import "./components/Footer/style.css"
 
 
 
@@ -29,6 +31,7 @@ const App = () => {
         <Session4 />
         <Session5 />
       </Body>
+      <Footer />
     </>
   )
 }

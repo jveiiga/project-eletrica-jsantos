@@ -54,6 +54,6 @@
         align-items: flex-end;
         justify-content: flex-end;
         width: 50%;
-        margin-bottom: 50px;
+        margin-bottom: var(--gap-50);
     }
 }

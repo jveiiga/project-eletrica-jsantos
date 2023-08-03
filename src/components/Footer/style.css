@@ -1,0 +1,114 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 21.56rem;
+    padding-top: var(--gap-40);
+    background-color: var(--color-primary);
+
+}
+
+.container-left-right-footer {
+    display: flex;
+    width: 100%;
+}
+
+.container-left-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;     
+    width: 50%;
+}
+
+.container-text-logo-footer p {
+    font-size: var(--font-size-15);
+    font-weight: 400;
+    line-height: 2.37rem;
+    letter-spacing: -0.05rem;
+    color: var(--color-white);
+    width: 100%;
+}
+
+.container-copyright-footer {
+    display: flex;
+    align-items: center;
+}
+
+.container-copyright-footer svg {
+    font-size: 1.87rem;
+    color: var(--color-white);
+    margin-right: var(--gap-5);
+}
+
+.container-copyright-footer p {
+    font-size: 0.62rem;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.container-right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.container-right-footer p {
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 2.37rem;
+    letter-spacing: -0.05rem;
+    color: var(--color-white);
+}
+
+.container-icons-social-media-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    color: var(--color-white);
+}
+
+.container-icons-social-media-footer svg {
+    width: 1.37rem;
+    height: 1.37rem;
+    cursor: pointer;
+}
+
+.container-noweb-information {
+    display: flex;
+}
+
+.container-noweb-information p {
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    letter-spacing: -0.03rem;
+    color: var(--white, #fff);
+}
+
+.container-noweb-information img {
+    margin-left: var(--gap-10);
+}
+
+@media screen and (min-width: 769px) {
+
+    .container-left-right-footer {
+        width: 80%;
+    }
+
+    .container-text-logo-footer p {
+        font-size: var(--font-size-16);
+        width: 50%;
+    }
+
+    .container-copyright-footer p {
+        font-size: var(--font-size-15);
+        font-weight: 400;
+        line-height: 2.81rem;
+        letter-spacing: -0.01rem;
+    }
+
+    .container-copyright-footer svg {
+        font-size: var(--font-size-15);
+    }
+}
