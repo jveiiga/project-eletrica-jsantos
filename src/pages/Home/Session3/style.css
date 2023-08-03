@@ -1,5 +1,5 @@
 .section-session3 {
-    background-image: url("../../images/svg/bg-session3.svg");
+    background-image: url("../../../images/svg/bg-session3.svg");
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@
 
 @media screen and (min-width: 769px) {
     .section-session3 {
-        background-image: url("../../images/svg/bg-session3.svg");
+        background-image: url("../../../images/svg/bg-session3.svg");
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;

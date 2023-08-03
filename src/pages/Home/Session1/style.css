@@ -1,7 +1,7 @@
 .section-s1 {
     background-size: cover;
     max-width: 100%;
-    background-image: url("../../images/svg/bg-session1.svg");
+    background-image: url("../../../images/svg/bg-session1.svg");
     background-repeat: no-repeat;
     padding: 0.62rem;
 }

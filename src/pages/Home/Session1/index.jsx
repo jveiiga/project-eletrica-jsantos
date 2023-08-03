@@ -1,9 +1,9 @@
-import Button from "../Button"
+import Button from "../../../components/Button"
 import { AiOutlineArrowDown } from "react-icons/ai"
-import detail1 from "../../images/svg/detail1-session1.svg"
-import women from "../../images/svg/foto-women-session1.svg"
-import lust from "../../images/svg/lust-session1.svg"
-import stars from "../../images/svg/five-stars.svg"
+import detail1 from "../../../images/svg/detail1-session1.svg"
+import women from "../../../images/svg/foto-women-session1.svg"
+import lust from "../../../images/svg/lust-session1.svg"
+import stars from "../../../images/svg/five-stars.svg"
 
 const Session1 = () => {
   return (
