@@ -92,7 +92,11 @@ img {
     --font-size-16: 1rem;    /* 16px */
     --font-size-18: 1.12rem; /* 18px */
     --font-size-20: 1.25rem; /* 20px */
+    --font-size-22: 1.37rem; /* 22px */
     --font-size-23: 1.43rem; /* 23px */
+    --font-size-24: 1.50rem; /* 24px */
+    --font-size-25: 1.56rem; /* 25px */
+    --font-size-70: 4.37rem; /* 70px */
 
 
     /*  Font Weight */
@@ -101,10 +105,10 @@ img {
     --font-weight-700: 700; /**/
 
     /*  Border Radius */
-    --radius-6: 0.37rem;/* 6px */
-    --radius-10: 10px;  /* 10px */
-    --radius-15: 15px;  /* 15px */
-    --radius-70: 70px;  /* 70px */
+    --radius-6: 0.37rem;   /* 6px */
+    --radius-10: 0.62rem;  /* 10px */
+    --radius-15: 0.93rem;  /* 15px */
+    --radius-70: 4.37rem;  /* 70px */ 
 
      /* Height */
      --height-3: 0.18rem;  /* 3px */
@@ -150,6 +154,7 @@ img {
     --gap-20: 1.25rem; /* 20px */
     --gap-30: 1.87rem; /* 30px */
     --gap-32: 2rem;    /* 32px */
+    --gap-35: 2.18rem; /* 35px */
     --gap-40: 2.5rem;  /* 40px */
     --gap-50: 3.12rem; /* 50px */
     --gap-60: 3.75rem; /* 60px */
@@ -158,6 +163,7 @@ img {
     --gap-90: 5.62rem; /* 90px */
     --gap-100: 6.25rem;/* 100px */
     --gap-150: 9.37rem;/* 150px */
+    --gap-200: 12.25rem;/* 200px */
 }
 
 @keyframes App-logo-spin {
