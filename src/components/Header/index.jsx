@@ -1,6 +1,7 @@
 import { useState } from "react"
 import logo from "../../images/svg/logo.svg"
 import imgHeader from "../../images/svg/img-header.svg"
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -27,20 +28,20 @@ const Header = () => {
                     <div className="icon"></div>
                 </button>
             </div>
-            
+
             <div className={`menu-mobile ${isOpen ? "open" : ""}`}>
                 <ul>
                     <li>
-                        <a>Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <a>Categorias</a>
+                        <Link to="/categorias">Categorias</Link>
                     </li>
                     <li>
-                        <a>Sobre</a>
+                        <Link to="/sobre">Sobre</Link>
                     </li>
                     <li>
-                        <a>Localização</a>
+                        <Link to="localizacao">Localização</Link>
                     </li>
                     <li>
                         <button>Contato</button>
@@ -49,18 +50,18 @@ const Header = () => {
             </div>
 
             <div className="menu-desktop">
-                <ul>
+            <ul>
                     <li>
-                        <a>Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <a>Categorias</a>
+                        <Link to="/categorias">Categorias</Link>
                     </li>
                     <li>
-                        <a>Sobre</a>
+                        <Link to="/sobre">Sobre</Link>
                     </li>
                     <li>
-                        <a>Localização</a>
+                        <Link to="localizacao">Localização</Link>
                     </li>
                     <li>
                         <button>Contato</button>

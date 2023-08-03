@@ -1,8 +1,8 @@
 import { SlLike } from "react-icons/sl"
-import detail1 from "../../images/svg/detail1-session4.svg"
-import detail2 from "../../images/svg/detail2-session4.svg"
-import store from "../../images/svg/store-image-s4.svg"
-import Button from "../Button"
+import detail1 from "../../../images/svg/detail1-session4.svg"
+import detail2 from "../../../images/svg/detail2-session4.svg"
+import store from "../../../images/svg/store-image-s4.svg"
+import Button from "../../../components/Button"
 
 const Session4 = () => {
   return (

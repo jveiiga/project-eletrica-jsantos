@@ -1,6 +1,6 @@
-import Button from "../Button"
-import detail from "../../images/svg/detail1-session5.svg"
-import women from "../../images/svg/foto-women-session5.svg"
+import Button from "../../../components/Button"
+import detail from "../../../images/svg/detail1-session5.svg"
+import women from "../../../images/svg/foto-women-session5.svg"
 
 const Session5 = () => {
 

@@ -1,17 +1,17 @@
-import bg from "../../images/svg/bg-session2.svg"
-import detail1 from "../../images/svg/detail1-session2.svg"
-import detail2 from "../../images/svg/detail2-session2.svg"
-import CardSession2 from "../CardSession2"
-import lust from "../../images/svg/lust-image-s2.svg";
-import light from "../../images/svg/light-s2.svg"
-import toolKit from "../../images/svg/tool-kit-s2.svg";
-import tableKit from "../../images/svg/table-kit-s2.svg";
-import shower from "../../images/svg/shower-s2.svg";
-import fan from "../../images/svg/fan-s2.svg";
-import socket from "../../images/svg/socket-s2.svg";
-import filterLine from "../../images/svg/filter-line-s2.svg";
+import bg from "../../../images/svg/bg-session2.svg"
+import detail1 from "../../../images/svg/detail1-session2.svg"
+import detail2 from "../../../images/svg/detail2-session2.svg"
+import CardSession2 from "../../../components/CardSession2"
+import lust from "../../../images/svg/lust-image-s2.svg";
+import light from "../../../images/svg/light-s2.svg"
+import toolKit from "../../../images/svg/tool-kit-s2.svg";
+import tableKit from "../../../images/svg/table-kit-s2.svg";
+import shower from "../../../images/svg/shower-s2.svg";
+import fan from "../../../images/svg/fan-s2.svg";
+import socket from "../../../images/svg/socket-s2.svg";
+import filterLine from "../../../images/svg/filter-line-s2.svg";
 
-import "../CardSession2/style.css"
+import "../../../components/CardSession2/style.css"
 
 const Session2 = () => {
   return (
@@ -29,9 +29,9 @@ const Session2 = () => {
         </div>
       </div>
 
-      {/* <div className="container-subtitle-s2">
+      <div className="container-subtitle-s2">
         <h2>Produtos em destaque</h2>
-      </div>  */}
+      </div> 
 
       <div className="container-cards-s2">
 
