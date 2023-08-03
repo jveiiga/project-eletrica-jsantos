@@ -1,0 +1,59 @@
+.section-session5 {
+    background-image: url("../../images/svg/bg-session5.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 23.81rem;
+    margin-top: var(--gap-100);
+}
+
+.container-left-right {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.container-left {
+    display: none;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.image-detail-s5 img {
+    position: absolute;
+    top: 0;
+}
+
+.image-women-s5 img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.container-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+
+    .container-left-right {
+        width: 50%;
+    }
+
+    .container-left {
+        display: flex;
+    }
+
+    .container-right {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
