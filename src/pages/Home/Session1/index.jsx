@@ -1,5 +1,6 @@
 import Button from "../../../components/Button"
 import { AiOutlineArrowDown } from "react-icons/ai"
+import { IoIosPricetags } from "react-icons/io";
 import detail1 from "../../../images/svg/detail1-session1.svg"
 import women from "../../../images/svg/foto-women-session1.svg"
 import lust from "../../../images/svg/lust-session1.svg"
@@ -55,6 +56,11 @@ const Session1 = () => {
             </div>
             <div className="container-photo-lust">
               <img src={lust} />
+            </div>
+            <div className="container-bg-image-price-s1">
+              <div className="container-image-price-s1">
+                <IoIosPricetags />
+              </div>
             </div>
             <div className="container-photo-stars">
               <img src={stars} />

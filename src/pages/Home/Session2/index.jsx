@@ -30,7 +30,7 @@ const Session2 = () => {
       </div>
 
       <div className="container-subtitle-s2">
-        <h2>Produtos em destaque</h2>
+        <h2>PRODUTOS EM DESTAQUE</h2>
       </div> 
 
       <div className="container-cards-s2">

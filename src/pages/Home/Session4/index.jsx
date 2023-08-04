@@ -10,20 +10,22 @@ const Session4 = () => {
       <div className="container-subtitle-s4">
         <h2>SUA MELHOR OPÇÃO</h2>
       </div>
-      <div className="container-left-s4">
-        <div className="container-images-s4">
-          <div className="image-detail1-s4">
-            <img src={detail1} />
-          </div>
-          <div className="image-detail2-s4">
-            <img src={detail2} />
-          </div>
-          <div className="image-store-s4">
-            <img src={store} />
-          </div>
-          <div className="container-image-like-s4">
-            <div className="image-like-s4">
-              <SlLike />
+      <div className="container-left-right-s4">
+        <div className="container-left-s4">
+          <div className="container-images-s4">
+            <div className="image-detail1-s4">
+              <img src={detail1} />
+            </div>
+            <div className="image-detail2-s4">
+              <img src={detail2} />
+            </div>
+            <div className="image-store-s4">
+              <img src={store} />
+            </div>
+            <div className="container-image-like-s4">
+              <div className="image-like-s4">
+                <SlLike />
+              </div>
             </div>
           </div>
         </div>
