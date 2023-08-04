@@ -1,6 +1,6 @@
 <h1 align="center">Elétrica J. Santos ⚡️</h1>
 
-<h4 align="center">Projeto criado para o teste de desenvolvedor da agência Noweb.</h4>
+<h4 align="center">Projeto criado para o teste de desenvolvedor Front-End da agência Noweb.</h4>
 
 ## 💻 Linguagens e tecnologias utilizadas
 <p align="left"> 
