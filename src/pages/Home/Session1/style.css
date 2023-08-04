@@ -1,0 +1,202 @@
+.section-s1 {
+    background-size: cover;
+    max-width: 100%;
+    background-image: url("../../../images/svg/bg-session1.svg");
+    background-repeat: no-repeat;
+    padding: 0.62rem;
+}
+
+.section-s1 .title-s1:nth-child(1) {
+    margin: var(--gap-10) 0;
+}
+
+.section-s1 .text-session1:nth-child(2) {
+    margin: 0.75rem 0;
+}
+
+.section-s1 .title-s1:nth-child(1) {
+    margin: var(--gap-10) 0;
+}
+
+.section-s1 button:nth-child(3) {
+    margin: 1.37rem 0;
+}
+
+.section-s1 .container-icon-text:nth-child(5) {
+    margin: 1.12rem 0;
+}
+
+.container-content-s1-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-s1 {
+    font-size: var(--font-size-70);
+    font-weight: 700;
+    letter-spacing: -0.43rem;
+    color: var(--color-white);
+}
+
+.text-session1 {
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: -0.03rem;
+    color: var(--color-white);
+}
+
+.container-icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.icon-arrow {
+    font-size: var(--font-size-24);
+    color: var(--color-white);
+    margin: 0 var(--gap-5) 0 0;
+}
+
+.text-icon-arrow {
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 2.37rem;
+    letter-spacing: -0.03rem;
+    color: var(--color-white);
+}
+
+.container-content-s1-right {
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+    .section-s1 {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .container-content-s1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container-content-s1-left {
+        width: 25%;
+        margin-top: 70px;
+    }
+
+    .button1-hover:hover {
+        border: 2px solid var(--color-white);
+        transition:
+            background-color 0.3s ease,
+            color 0.3s ease;
+    }
+
+    .button2-hover:hover {
+        background-color: var(--color-primary);
+        transition:
+            background-color 0.3s ease,
+            color 0.3s ease;
+    }
+
+    .container-content-s1-right {
+        display: flex;
+        width: 50%;
+        margin-left: var(--gap-30);
+        height: 100%;
+    }
+
+    .container-photos-s1 {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        right: var(--gap-15);
+    }
+
+    .container-photo-detail1 {
+        position: absolute;
+        top: var(--gap-150);
+        right: var(--gap-200);
+    }
+
+    .container-photo-detail1 img {
+        width: 15.62rem;
+        height: 15.7rem;
+    }
+
+    .container-photo-detail2 {
+        position: absolute;
+        top: 28.12rem;
+        left: var(--gap-150);
+    }
+
+    .container-photo-detail2 img {
+        width: 15.62rem;
+        height: 15.7rem;
+    }
+
+    .container-photo-women {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-photo-women img {
+        width: 29.18rem;
+        height: 49.75rem;
+    }
+
+    .container-photo-lust {
+        position: absolute;
+        top: 20rem;
+        left: 6.25rem;
+    }
+
+    .container-photo-lust img {
+        width: 16.43rem;
+        height: 13.5rem;
+    }
+
+    .container-bg-image-price-s1 {
+        position: absolute;
+        bottom: 26rem;
+        left: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50%;
+        background-color: var(--color-secundary);
+    }
+    
+    .container-image-price-s1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3.75rem;
+        height: 3.75rem;
+        border-radius: 50%;
+        background-color: var(--color-white);
+    }
+
+    .container-image-price-s1 svg {
+        font-size: 26px;
+    }
+
+    .container-photo-stars {
+        position: absolute;
+        bottom: 9.37rem;
+        right: 11rem;
+        background-color: var(--color-white);
+        border-radius: var(--radius-15);
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .container-photo-stars img {
+        width: 17.93rem;
+        height: 5.18rem;
+        padding: 1.56rem;
+    }
+}

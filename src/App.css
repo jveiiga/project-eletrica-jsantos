@@ -1,42 +1,177 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:150px 0;
+  background-color: var(--color-white);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+@media (min-width: 768px) { 
+  .App {
+    min-height: 100vh;
+    justify-content: center;
+    margin: 160px 0;
+
+  }
 }
 
-@keyframes logo-spin {
+@media (min-width: 1023px) {
+    .App {
+      display: flex;
+      flex-direction: inherit;
+      align-items: flex-start;
+      justify-content: center;
+    }
+}
+
+body,
+header,
+nav,
+main,
+article,
+figure,
+img,
+figcaption,
+figure,
+form,
+h1,
+h2,
+h3,
+div,
+input,
+label,
+span,
+button,
+p,
+span,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+ul,
+ol, 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    /*  Colors  */
+    --color-primary: #202332;
+    --color-secundary: #FBAF17;  
+    --color-white: #FFFFFF;
+    --color-black: #333333;
+
+    /*  Font Size Title  */
+    --Title70: 4.37rem; /* 70px */
+    --Title35: 2.18rem; /* 35px */
+    --Title22: 1.37rem; /* 22px */
+
+    /**********/
+  
+        /*  Font Size  */
+    --font-size-13: 0.81rem; /* 13px */
+    --font-size-15: 0.93rem; /* 15px */
+    --font-size-16: 1rem;    /* 16px */
+    --font-size-18: 1.12rem; /* 18px */
+    --font-size-20: 1.25rem; /* 20px */
+    --font-size-22: 1.37rem; /* 22px */
+    --font-size-23: 1.43rem; /* 23px */
+    --font-size-24: 1.50rem; /* 24px */
+    --font-size-25: 1.56rem; /* 25px */
+    --font-size-70: 4.37rem; /* 70px */
+
+
+    /*  Font Weight */
+    --font-weight-400: 400; /**/
+    --font-weight-500: 500; /**/
+    --font-weight-700: 700; /**/
+
+    /*  Border Radius */
+    --radius-6: 0.37rem;   /* 6px */
+    --radius-10: 0.62rem;  /* 10px */
+    --radius-15: 0.93rem;  /* 15px */
+    --radius-70: 4.37rem;  /* 70px */ 
+
+     /* Height */
+     --height-3: 0.18rem;  /* 3px */
+     --height-4: 0.25rem;  /* 4px */
+     --height-5: 0.31rem;  /* 5px */
+     --height-10: 0.62rem; /* 10px */
+     --height-15: 0.93rem; /* 15px */
+     --height-20: 1.25rem; /* 20px */
+     --height-30: 1.87rem; /* 30px */
+     --height-32: 2rem;    /* 32px */
+     --height-40: 2.5rem;  /* 40px */
+     --height-50: 3.12rem; /* 50px */
+     --height-60: 3.75rem; /* 60px */
+     --height-70: 4.37rem; /* 70px */
+     --height-80: 5rem;    /* 80px */
+     --height-90: 5.62rem; /* 90px */
+     --height-100: 6.25rem;/* 100px */
+     --height-150: 9.37rem;/* 150px */
+
+      /* Width */
+    --width-3: 0.18rem;  /* 3px */
+    --width-4: 0.25rem;  /* 4px */
+    --width-5: 0.31rem;  /* 5px */
+    --width-10: 0.62rem; /* 10px */
+    --width-15: 0.93rem; /* 15px */
+    --width-20: 1.25rem; /* 20px */
+    --width-30: 1.87rem; /* 30px */
+    --width-32: 2rem;    /* 32px */
+    --width-40: 2.5rem;  /* 40px */
+    --width-50: 3.12rem; /* 50px */
+    --width-60: 3.75rem; /* 60px */
+    --width-70: 4.37rem; /* 70px */
+    --width-80: 5rem;    /* 80px */
+    --width-90: 5.62rem; /* 90px */
+    --width-100: 6.25rem;/* 100px */
+    --width-150: 9.37rem;/* 150px */
+
+    /* Gap */
+    --gap-3: 0.18rem;  /* 3px */
+    --gap-5: 0.31rem;  /* 5px */
+    --gap-10: 0.62rem; /* 10px */
+    --gap-15: 0.93rem; /* 15px */
+    --gap-20: 1.25rem; /* 20px */
+    --gap-30: 1.87rem; /* 30px */
+    --gap-32: 2rem;    /* 32px */
+    --gap-35: 2.18rem; /* 35px */
+    --gap-40: 2.5rem;  /* 40px */
+    --gap-50: 3.12rem; /* 50px */
+    --gap-60: 3.75rem; /* 60px */
+    --gap-70: 4.37rem; /* 70px */
+    --gap-80: 5rem;    /* 80px */
+    --gap-90: 5.62rem; /* 90px */
+    --gap-100: 6.25rem;/* 100px */
+    --gap-150: 9.37rem;/* 150px */
+    --gap-200: 12.25rem;/* 200px */
+}
+
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

@@ -1,0 +1,133 @@
+.section-session2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: var(--gap-60);
+    width: 100%;
+}
+
+.container-bg-s2 {
+    display: none;
+}
+
+.container-subtitle-s2 {
+    position: absolute;
+    top: -1.6%;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-subtitle-s2 h2 {
+    font-size: var(--font-size-25);
+    font-weight: 700;
+    letter-spacing: -0.06rem;
+    color: var(--color-primary,);
+}
+
+.container-cards-s2 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+    .container-bg-s2 {
+        display: block;
+        position: absolute;
+        left: 8rem;
+    }
+
+    .container-subtitle-s2 {
+        position: absolute;
+        top: 16%;
+    }
+
+    .container-subtitle-s2 h2 {
+        position: absolute;
+        bottom: 1.87rem;
+        font-size: 2.18rem;
+        font-weight: 700;
+        letter-spacing: -0.06rem;
+        color: var(--color-white,);
+    }
+
+    .container-imageDetail1-s2 {
+        position: absolute;
+        top: 0;
+        left: 21.87rem;
+        width: 6.2rem;
+        height: var(--height-10);
+        z-index: 2;
+    }
+
+    .container-imageDetail2-s2 {
+        display: none;
+    }
+
+    .container-cards-s2 {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+
+    .container-bg-s2 {
+        display: block;
+        position: absolute;
+        left: 8rem;
+    }
+
+    .container-subtitle-s2 {
+        position: absolute;
+        top: 22%;
+        z-index: 4;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container-subtitle-s2 h2 {
+        font-size: 2.18rem;
+        font-weight: 700;
+        letter-spacing: -0.06rem;
+        color: var(--color-white,);
+    }
+
+    .container-imageBg-s2 {
+        position: relative;
+        z-index: 1;
+    }
+
+    .container-imageDetail1-s2 {
+        position: absolute;
+        top: 0;
+        left: 21.87rem;
+        width: 6.2rem;
+        height: var(--height-10);
+        z-index: 2;
+    }
+
+    .container-imageDetail2-s2 {
+        position: absolute;
+        top: var(--gap-30);
+        left: 93%;
+        width: 15.62rem;
+        height: var(--height-150);
+    }
+
+    .container-cards-s2 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 21.87rem;
+        padding: 0 15%;
+    }
+}

@@ -1,0 +1,132 @@
+.section-session4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: var(--gap-20);
+    background-color: #f7f7f7;
+}
+
+.container-subtitle-s4 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-subtitle-s4 h2 {
+    font-size: 2.18rem;
+    font-weight: 700;
+    letter-spacing: -0.06rem;
+    color: var(--color-primary);
+}
+
+.container-left-right-s4 {
+    display: flex;
+}
+
+.container-left-s4 {
+    position: relative;
+    display: flex;
+}
+
+.container-images-s4 {
+    display: none;
+    width: 48%;
+}
+
+.image-detail1-s4 {
+    position: absolute;
+    top: 20%;
+}
+
+.image-detail2-s4 {
+    position: relative;
+    left: 50%;
+}
+
+.image-store-s4 {
+    position: absolute;
+    top: 4%;
+    left: 18%;
+}
+
+
+.container-image-like-s4 {
+    position: relative;
+    bottom: 8%;
+    left: 40%;
+    width: 6rem;
+    height: 6rem;
+    border: 0.25rem solid var(--color-secundary);
+    border-radius: 50%;
+}
+
+.image-like-s4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    color: gray;
+    background-color: var(--color-white);
+}
+
+.image-like-s4 svg {
+    font-size: 28px;
+}
+
+.container-right-s4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: var(--gap-30);
+}
+
+.container-text-s4 {
+    display: flex;
+    justify-content: flex-start;
+    width: 62%;
+    margin-bottom: var(--gap-30);
+}
+
+.container-text-s4 p {
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 2.37rem;
+    letter-spacing: -0.03rem;
+    color: #333;
+}
+
+.container-button-s4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+    .section-session4 {
+        margin-top: 100px;
+    }
+
+    .container-images-s4 {
+        display: block;
+    }
+
+    .container-left-s4 {
+        width: 50%;
+    }
+
+    .container-right-s4 {
+        width: 50%;
+        display: flex;
+        align-items: unset;
+        margin: 0;
+    }
+
+    .container-button-s4 {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
